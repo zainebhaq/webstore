@@ -139,35 +139,35 @@ const product = [
 //     greatDeal = `<small class="callout">On Sale!!</small>`;
 //   }
 
-    // function getproductAsHtmlString(product) {
+    function getproductAsHtmlString(product) {
 
-    //   let theStars = `
-    //     <span class="material-icons">star</span>
-    //     <span class="material-icons">star</span>
-    //     <span class="material-icons">star</span>
-    //     <span class="material-icons">star</span>
-    //     <span class="material-icons">star</span>`;
+      let theStars = `
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>`;
 
-    //   if (product.stars<1) {
-    //     theStars = `
-    //     <span class="material-icons">star_half</span>`;
-    //   } else if (product.stars<2) {
-    //     `<span class="material-icons">star</span>`;
-    //   } else if (product.stars<3) {
-    //     `<span class="material-icons">star</span>`;
-    //     `<span class="material-icons">star</span>`;
-    //   }
-    //    else if (product.stars<4) {
-    //   `<span class="material-icons">star</span>`;
-    //   `<span class="material-icons">star</span>`;
-    //   `<span class="material-icons">star</span>`;
-    //   }
-    //    else if (product.stars5) {
-    //   `<span class="material-icons">star</span>`;
-    //   `<span class="material-icons">star</span>`;
-    //   `<span class="material-icons">star</span>`;
-    //   `<span class="material-icons">star</span>`;
-    //  }
+      if (product.stars<1) {
+        theStars = `
+        <span class="material-icons">star_half</span>`;
+      } else if (product.stars<2) {
+        `<span class="material-icons">star</span>`;
+      } else if (product.stars<3) {
+        `<span class="material-icons">star</span>`;
+        `<span class="material-icons">star</span>`;
+      }
+       else if (product.stars<4) {
+      `<span class="material-icons">star</span>`;
+      `<span class="material-icons">star</span>`;
+      `<span class="material-icons">star</span>`;
+      }
+       else if (product.stars5) {
+      `<span class="material-icons">star</span>`;
+      `<span class="material-icons">star</span>`;
+      `<span class="material-icons">star</span>`;
+      `<span class="material-icons">star</span>`;
+     }
 
  
 
